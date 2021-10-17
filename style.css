@@ -5,6 +5,14 @@ Student: Will Lewthwaite
 Modified Date: 16 October 2021 
 */
 
+/* Colors used
+#DAD7CD - Timberwolf
+#A3B18A - Laurel Green
+#588157 - Fern
+#3A5A40 - Hunter
+#344E41 - Brunswick
+*/
+
 /* ########### Global Styles ############ */
 
 * {
@@ -12,34 +20,42 @@ Modified Date: 16 October 2021
     margin: 0;
     box-sizing: border-box;
 }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 html, body {
     background-color: black;
     padding: 15px;
 }
 
-h1 {
-    
+h1, h2 {
     font-family: 'IM Fell English SC', serif;
     font-weight: 400;
     margin: 0;
     color: #DAD7CD
 }
 
+.Frames {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 300px auto;
+    grid-gap: 10px;
+    background-color: #A3B18A;
+    padding: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Frames>div {
+    background-color: #344E41;
+    text-align: left;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.frame4 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+/*h2 {
+    animation: typing 3s steps(27),
+               blinking 0.5s steps(1) infinite;
+    }*/
