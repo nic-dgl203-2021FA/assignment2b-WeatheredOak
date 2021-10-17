@@ -29,6 +29,15 @@ html, body {
     padding: 15px;
 }
 
+h1 {
+    font-size: 100px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 25px;
+}
+
 h1, h2 {
     font-family: 'IM Fell English SC', serif;
     font-weight: 400;
