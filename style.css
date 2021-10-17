@@ -5,9 +5,26 @@ Student: Will Lewthwaite
 Modified Date: 16 October 2021 
 */
 
+/* ########### Global Styles ############ */
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+html, body {
+    background-color: black;
+    padding: 15px;
+}
 
+h1 {
+    
+    font-family: 'IM Fell English SC', serif;
+    font-weight: 400;
+    margin: 0;
+    color: #DAD7CD
+}
 
 
 
