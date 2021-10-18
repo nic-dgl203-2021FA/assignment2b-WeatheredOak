@@ -20,6 +20,7 @@ Modified Date: 16 October 2021
     margin: 0;
     box-sizing: border-box;
 }
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -36,9 +37,10 @@ h1 {
 
 h2 {
     font-size: 25px;
+    color: #DAD7CD;
 }
 
-h1, h2 {
+h1 {
     font-family: 'IM Fell English SC', serif;
     font-weight: 400;
     margin: 0;
@@ -60,13 +62,32 @@ h1, h2 {
     padding: 20px 0;
     font-size: 30px;
 }
+
 .frame4 {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: span 2;
 }
-/*h2 {
-    animation: typing 3s steps(27),
-               blinking 0.5s steps(1) infinite;
-    }*/
+
+.type {
+    animation: typing 3s steps(27), blinking 0.5s steps(1) infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes blinking {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #CE2D4F;
+      }
+  }
