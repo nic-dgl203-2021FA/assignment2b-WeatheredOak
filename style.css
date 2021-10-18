@@ -85,9 +85,24 @@ h1 {
 
 @keyframes blinking {
     0%, 100% {
-      border-color: transparent;
+        border-color: transparent;
     }
     50% {
-      border-color: #CE2D4F;
-      }
-  }
+        border-color: #CE2D4F;
+    }
+}
+
+/* #### Responsive Styles #### */
+
+@media screen and (min-width:750px) {
+    header, footer {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+}
