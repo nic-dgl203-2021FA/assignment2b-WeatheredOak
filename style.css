@@ -49,8 +49,8 @@ h1 {
 
 .Frames {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto;
     grid-gap: 10px;
     background-color: #A3B18A;
     padding: 10px;
@@ -101,7 +101,7 @@ h1 {
 }
 
 @media screen and (max-width: 749px) {
-    .Frames {
+    div {
         display: flex;
         align-items: center;
         justify-content: center;
