@@ -9,8 +9,9 @@ Modified Date: 18 October 2021
 #DAD7CD - Timberwolf
 #A3B18A - Laurel Green
 #588157 - Fern
-#3A5A40 - Hunter
-#344E41 - Brunswick
+#9CB0B8 - Pewter Blue
+#667AA3 - Blue Yonder
+#3D4971 - RCAF Blue
 */
 
 /* ########### Global Styles ############ */
@@ -49,11 +50,11 @@ h1 {
     font-family: 'IM Fell English SC', serif;
     font-weight: 400;
     margin: 0;
-    color: #DAD7CD
+    color: #9CB0B8
 }
 
 img {
-    width: 75px;
+    width: 100px;
 }
 
 /* ### Grid Styles ### */
@@ -63,19 +64,15 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr auto;
     grid-gap: 10px;
-    background-color: #A3B18A;
+    background-color: #9CB0B8;
     padding: 10px;
 }
 
 .Frames>div {
-    background-color: #344E41;
+    background-color: #3D4971;
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
-}
-
-.frame3 {
-    background-color: aqua;
 }
 
 .frame4 {
@@ -143,7 +140,6 @@ button:hover {
 
 /* #### Sailboat animation in Frame 3 #### */
 
-
 .boat:hover {
     animation-name: move;
     animation-duration: 3s;
@@ -153,8 +149,8 @@ button:hover {
 }
 
 @keyframes move {
-    100% {
-        transform: translateX(200%);
+    75% {
+        transform: translateX(100%);
     }
 }
 
