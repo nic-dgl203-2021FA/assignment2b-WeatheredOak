@@ -52,6 +52,10 @@ h1 {
     color: #DAD7CD
 }
 
+img {
+    width: 75px;
+}
+
 /* ### Grid Styles ### */
 
 .Frames {
@@ -68,6 +72,10 @@ h1 {
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
+}
+
+.frame3 {
+    background-color: aqua;
 }
 
 .frame4 {
@@ -131,6 +139,23 @@ button:hover {
     background: #DAD7CD;
     color: #353535;
     border-radius: 20px;
+}
+
+/* #### Sailboat animation in Frame 3 #### */
+
+
+.boat:hover {
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes move {
+    100% {
+        transform: translateX(200%);
+    }
 }
 
 /* #### Responsive Styles #### */
