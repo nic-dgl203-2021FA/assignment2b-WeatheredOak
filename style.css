@@ -2,7 +2,7 @@
 NIC DGL 203
 Assignment 2b
 Student: Will Lewthwaite
-Modified Date: 18 October 2021 
+Modified Date: 19 October 2021 
 */
 
 /* 
@@ -15,7 +15,7 @@ Modified Date: 18 October 2021
     6. Sailboat animation in Frame 3
     7. Clouds Moving in Frame 4
     8. Responsive Styles
-*/     
+*/
 
 /* Colors used - Not including text color in Frame1 h2
 #DAD7CD - Timberwolf
@@ -170,7 +170,17 @@ button:hover {
 
 /* #### Clouds Moving in Frame 4 #### */
 
+img.cloud {
+    width: 150px;
+}
 
+img.UFO {
+    width: 100px;
+}
+
+.sky-scraper img {
+    width: 100%;
+}
 
 /* #### Responsive Styles #### */
 
