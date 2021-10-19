@@ -74,8 +74,9 @@ h1 {
 
 /* ## Typing Animation ## */
 
-.type {
-    animation: typing 3s steps(27), blinking 0.5s steps(1) infinite;
+h2 {
+    animation: typing 3s steps(27),
+               blinking 0.5s steps(1) infinite;
 }
 
 @keyframes typing {
