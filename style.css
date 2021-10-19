@@ -5,13 +5,27 @@ Student: Will Lewthwaite
 Modified Date: 18 October 2021 
 */
 
-/* Colors used
+/* 
+    ##### Contents #####
+    1. Colors
+    2. Global Styles
+    3. Grid Styles
+    4. Expanding Typing Animation in Frame 1
+    5. Button in Frame 2
+    6. Sailboat animation in Frame 3
+    7. Clouds Moving in Frame 4
+    8. Responsive Styles
+*/     
+
+/* Colors used - Not including text color in Frame1 h2
 #DAD7CD - Timberwolf
 #A3B18A - Laurel Green
 #588157 - Fern
 #9CB0B8 - Pewter Blue
 #667AA3 - Blue Yonder
 #3D4971 - RCAF Blue
+#000000 - Black
+#FFFFFF - White
 */
 
 /* ########### Global Styles ############ */
@@ -153,6 +167,10 @@ button:hover {
         transform: translateX(100%);
     }
 }
+
+/* #### Clouds Moving in Frame 4 #### */
+
+
 
 /* #### Responsive Styles #### */
 
