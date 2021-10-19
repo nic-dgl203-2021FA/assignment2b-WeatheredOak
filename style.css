@@ -39,6 +39,7 @@ h2 {
     font-size: 25px;
     color: #DAD7CD;
 }
+
 p {
     font-size: 18px;
     color: #DAD7CD;
@@ -76,32 +77,31 @@ h1 {
     grid-row-end: span 2;
 }
 
-/* ## Typing Animation ## */
+/* ## Expanding Typing Animation in Frame 1 ## */
 
-h2 {
-    animation: typing 3s steps(27),
-               blinking 0.5s steps(1) infinite;
-}
-
-@keyframes typing {
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@keyframes scaleIn {
     0% {
-        width: 0px;
+        transform: scale(0.2);
+    }
+    85% {
+        transform: scale(1.1);
     }
     100% {
-        width: 100%;
+        transform: scale(1);
     }
 }
 
-@keyframes blinking {
-    0%, 100% {
-        border-color: transparent;
-    }
-    50% {
-        border-color: #CE2D4F;
-    }
+h2 {
+    font-size: 10rem;
+    font-family: 'Rampart One', cursive;
+    color: #e21515;
+    text-shadow: 3px 3px 0px #c3a159;
+    animation-name: scaleIn;
+    animation-duration: 2s;
 }
 
-/* ## Button ## */
+/* ## Button in Frame 2 ## */
 
 button:hover {
     cursor: pointer;
