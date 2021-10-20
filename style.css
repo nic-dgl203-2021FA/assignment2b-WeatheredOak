@@ -100,6 +100,8 @@ img {
 
 /* ## Expanding Typing Animation in Frame 1 ## */
 
+/* This works on page load. Refresh to see a Klingon greeting.*/
+
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 
 @keyframes scaleIn {
@@ -114,7 +116,7 @@ img {
     }
 }
 
-h2 {
+h2 { /* Modified font, size and colors from tutorial example */
     font-size: 5rem;
     font-family: 'Rampart One', cursive;
     color: #e21515;
@@ -124,6 +126,9 @@ h2 {
 }
 
 /* ## Button in Frame 2 ## */
+
+/* Note: The hover effect does not work in small screens,
+    however you can see the same animation by clicking on the button */
 
 button:hover {
     cursor: pointer;
@@ -157,6 +162,8 @@ button:hover {
 
 /* #### Sailboat animation in Frame 3 #### */
 
+/* Note: Click on boat at smaller screen sizes to activate animation. */
+
 .boat:hover {
     animation-name: move;
     animation-duration: 3s;
@@ -172,6 +179,10 @@ button:hover {
 }
 
 /* #### Clouds Moving in Frame 4 #### */
+
+/* Clouds and UFO should move in a steady stream 5 seconds apart.
+    With the speed difference, the longer you watch you will see
+    the clouds seem to chase and overtake each other as the UFO flies by quickly. */
 
 .cloud1 {
     animation: float 20s linear infinite;
