@@ -101,6 +101,7 @@ img {
 /* ## Expanding Typing Animation in Frame 1 ## */
 
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
 @keyframes scaleIn {
     0% {
         transform: scale(0.2);
@@ -173,20 +174,20 @@ button:hover {
 /* #### Clouds Moving in Frame 4 #### */
 
 .cloud1 {
-    animation: float 25s linear infinite;
+    animation: float 20s linear infinite;
 }
 
 .cloud2 {
-    animation: float 30s 5s linear infinite backwards;
+    animation: float 25s 5s linear infinite backwards;
 }
 
 .UFO {
-    animation: float 20s 5s linear infinite
+    animation: float 15s linear infinite;
 }
 
 @keyframes float {
     0% {
-        transform: translateX(-150px);
+        transform: translateX(-800px);
     }
     100% {
         transform: translateX(820px);
