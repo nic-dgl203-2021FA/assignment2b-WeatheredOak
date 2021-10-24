@@ -27,7 +27,9 @@ https://coolors.co/dad7cd-a3b18a-588157-3a5a40-344e41
 /* Global styles
 ------------------------------------*/
 
-html {
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -254,15 +256,7 @@ footer {
 
 /* ########### Global Styles ############ */
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
-*, *:before, *:after {
-    box-sizing: inherit;
-}
 
 html, body {
     background-color: black;
@@ -284,12 +278,12 @@ p {
     color: #DAD7CD;
 }
 
-h1 {
+/*h1 {
     font-family: 'IM Fell English SC', serif;
     font-weight: 400;
     margin: 0;
     color: #9CB0B8
-}
+}*/
 
 img {
     width: 100px;
