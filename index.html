@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  NIC DGL-203
+  Assignment 1c
+  Author: Will Lewthwaite
+  Date Last Modified: 4 October 2021 - Customization
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weathered Oak Media</title>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <main>
+    <!-- ***********************  ABOUT / PROFILE  *********************** -->
+    <header>
+      <div class="content-wrap">
+
+        <div class="dropdown">
+          <!--Code from W3 Schools Website HTML/CSS basic Drop Menu.
+          Modified class id names, added 4th list item-->
+          <button class="dropbtn">Jump To</button>
+          <div class="dropdown-list">
+            <a href="#f-projects">Projects</a>
+            <a href="#work">Work Experience</a>
+            <a href="#edu">Education</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <h1 id="about">Weathered Oak Media</h1>
+        <h2>Will Lewthwaite</h2>
+        <h3>Student, Artist, Musician, Photographer</h3>
+        <p>I have worked in a variety of professions and that has provided a wealth of knowledge and experience.
+          In 2020 I returned to school to build on that experience with new skills that I can apply towards a career
+          in
+          design and media.
+          This webpage is a work in progress. As I learn new things the design will also improve.</p>
+        <p>I live in the Comox Valley with my wife and our cat. I enjoy music, art, history, nature, and science.
+          I play guitar, percussion, and some keyboards. I do a lot of home recording, and as a hobby I create videos
+          for my YouTube channel <a href="https://www.youtube.com/channel/UCxy8o0J-DcobOQG56dG_FbA"
+            target="_blank">Weathered Oak Media</a>.</p>
+
+
+      </div>
+
+    </header>
+
+    <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+    <section class="projects">
+      <div class="content-wrap divider">
+        <h2 id="f-projects">Featured Projects</h2>
+        <p>View selected projects below.</p>
+
+        <!-- Project 1 -->
+        <section class="project-item">
+          <img src="images/GuitarNerdsCover.jpg" alt="Magazine Cover" style="width:30%;cursor:zoom-in"
+            onclick="document.getElementById('modal01').style.display='block'">
+
+          <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+            <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom">
+              <img src="images/GuitarNerdsCover.jpg" alt="Magazine Cover" style="width:100%">
+              <!--Modal Code adapted from W3 Schools website. Modified with image names and div id -->
+            </div>
+          </div>
+          <!--This is where I will showcase magazine cover from last year. Modal image will work here.-->
+          <h3>Guitar Nerds Magazine Cover</h3>
+          <p>For my DGL 112 Typography course, a major project was designing a magazine cover plus the first few pages.
+            This included advertising, a letter from the editor, and an article. I designed the entire project from
+            scratch, wrote all of the content, and used my own photos with assistance from my wife. The project received
+            high marks and high praise
+            from the instructor, and also provided an opportunity to live out a teenage fantasy by putting myself on the
+            cover.
+            Click the image to enlarge.</p>
+        </section>
+
+        <!-- Project 2 -->
+        <section class="project-item">
+          <img src="images/WillCaveArt.jpg" alt="Cave Art Drawing">
+          <h3>BC 30,000 BC</h3>
+          <p>As a term project in FIN 100 Art History, students were asked to analyze and critique a work of art from a
+            period of history
+            within the textbook and then come up with their own creative response in whatever form. I chose the artwork
+            seen in prehistoric
+            cave drawings found in France that are estimated to be well over 30,000 years old. My creative response was
+            in two parts:
+            I created a large drawing in the style and method of the ancient artists and produced a video documenting
+            the
+            entire project. This involved research, voice-over recordings, and even composing and recording the
+            soundtrack.
+          </p>
+          <a class="btn" href="https://www.youtube.com/watch?v=9argG19zbzU" target="_blank">Watch the video</a>
+        </section>
+
+        <!-- Project 3 -->
+        <section class="project-item">
+          <img src="images/WOSite1.jpg" alt="First website screenshot">
+          <h3>First Year Web Design</h3>
+          <p>In my first year DGL 103 and 113 classes the major course project was to create our very own websites from
+            the ground up.
+            Being new to web development, my idea was to build a site to showcase my evolving photo and video work under
+            my established name
+            Weathered Oak Media. The site has minor flaws, but it is something I am proud of for a first attempt.
+          </p>
+          <a class="btn" href="https://nicdgl113.github.io/course-project-WeatheredOak/WeatheredOak_home.html"
+            target="_blank">Have a look</a>
+        </section>
+
+        <!-- Project 4 -->
+        <section class="project-item">
+          <img src="images/BeachMasse3_WL.jpg" alt="Angry Seagull Beach Cleanup Poster" style="width:30%;cursor:zoom-in"
+            onclick="document.getElementById('modal02').style.display='block'">
+
+          <div id="modal02" class="w3-modal" onclick="this.style.display='none'">
+            <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom">
+              <img src="images/BeachMasse3_WL.jpg" alt="Angry Seagull Beach Cleanup Poster" style="width:100%">
+              <!--Code adapted from W3 Schools website. Modified with image names and div id -->
+            </div>
+          </div>
+          <h3>Social Good Call to Action Poster</h3>
+          <p>A notable project from my DGL 102 course was a Social Good Call to Action poster. Using design principles
+            we learned
+            throughout the year, we chose a worthy cause and created posters to raise awareness of an issue with the
+            call to action
+            clearly noted. Plastic pollution on our beaches is a worldwide issue, so my poster urges people to get
+            involved in beach
+            cleanups through the Surfrider Foundation. The style of my design is a tribute to the psychedelic concert
+            posters of the 1960s,
+            particularly the artist Bob Masse, with a modern twist. The angry seagull became a bit of a mascot for my
+            entire first year.
+            Click the image to enlarge.
+          </p>
+        </section>
+      </div>
+    </section>
+
+    <!-- ***********************  WORK EXPERIENCE  *********************** -->
+    <section class="work-experience">
+      <div class="content-wrap item-details divider">
+        <h2 id="work">Work Experience</h2>
+        <p>A brief overview of my recent work history.</p>
+
+        <!-- Job 1 -->
+        <section class="job-item">
+          <div class="job-details">
+            <h3>Farm Work</h3>
+            <p>Two Ten Resources Ltd.</p>
+            <p>Seasonal 2019-Present</p>
+          </div>
+          <div class="job-summary">
+            <p>Actively engaged in all aspects of production and harvest of cranberries on a commercial farm supplying
+              fruit to Ocean Spray in British Columbia.</p>
+            <a class="btn" href="https://www.youtube.com/watch?v=CwHTG5QL4j8" target="_blank">Find out more!</a>
+          </div>
+        </section>
+
+        <!-- Job 2 -->
+        <section class="job-item">
+          <div class="job-details">
+            <h3>Backline Manager and Production Assistant</h3>
+            <p>Various live music events</p>
+            <p>2012-2019</p>
+          </div>
+          <div class="job-summary">
+            <p>Multi-role position that involved working with the event producers, artists, and vendors, as well as the
+              general public
+              to ensure the smooth operations of live music events and festivals.
+            </p>
+            <p>Key roles:</p>
+            <ul>
+              <li>Backline Manager.
+                <ul>
+                  <li>Communicated directly with artists and event staff to provide industry standard rented stage
+                    equipment.</li>
+                  <li>Maintained equipment on site during events.</li>
+                  <li>Worked alongside sound engineers to ensure proper stage set-ups and protocols were met.</li>
+                  <li>Oversee load in and load out.</li>
+                </ul>
+              </li>
+              <li>Stage construction.</li>
+              <li>Site parking and bicycle valet.</li>
+              <li>Acted as liason between event producers and the patrons.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Job 3 -->
+        <section class="job-item">
+          <div class="job-details">
+            <h3>General Merchandising</h3>
+            <p>Retail and wholesale</p>
+            <p>2013 - 2018</p>
+          </div>
+          <div class="job-summary">
+            <p>Set and maintained product displays in retail and wholesale locations as directed by product vendors.</p>
+            <p>Key roles:</p>
+            <ul>
+              <li>Follow drawings and physically construct items for display and configure store/yard sales area as
+                required.</li>
+              <li>Maintained inventory of stock required for product displays.</li>
+              <li>Ensured store/yard standards were met.</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+    <section class="education">
+      <div class="content-wrap item-details">
+        <h2 id="edu">Education</h2>
+        <section>
+          <h3>North Island College - Comox Valley, BC</h3>
+          <p>Advanced Digital Design and Development (Design Stream), 2020-2023</p>
+          <p>Three year full-time program covering HTML, CSS, Graphic Design, Branding, Typography, Word Press, PHP and
+            JavaScript.</p>
+          <p>Studying Writing, History, and Art as electives.</p>
+        </section>
+        <section>
+          <h3>Workplace Safety and Specialty Certifications</h3>
+          <p>On site or company funded off site training in: WHMIS, First Aid, Working at Heights and Fall Safety.</p>
+          <p>Forklift certification.</p>
+          <p>Radio and Communications training.</p>
+          <p>Customer service professionalism.</p>
+          <p>High value transaction and client confidentiality.</p>
+        </section>
+        <section>
+          <h3>High School Diploma - Campbell River, BC</h3>
+          <p>1995</p>
+        </section>
+      </div>
+    </section>
+
+    <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+    <footer>
+      <div class="content-wrap">
+        <h2 id="contact">Say Hello!</h2>
+        <p>Weathered Oak Media &#8226; 12345 Some Random Street &nbsp; Comox BC &#8226; (250) 555-1234 </p>
+        <ul class="contact-list">
+          <li><a href="mailto:email@example.com">email@example.com</a></li>
+          <li><a href="https://www.facebook.com/WeatheredOakMedia" target="_blank">WeatheredOakMedia</a></li>
+        </ul>
+        <a class="btn" href="#about">Back to Top</a>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
