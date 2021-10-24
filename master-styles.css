@@ -93,6 +93,34 @@ h1, h2 {
     margin: 0;
 }
 
+ul.top-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #344E41;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #DAD7CD;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #A3B18A;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
 .content-wrap {
     max-width: 800px;
     width: 85%;
