@@ -255,10 +255,10 @@ footer {
 
 /* ########### Global Styles ############ */
 
-html, body {
+/*html, body {
     background-color: black;
     padding: 15px;
-}
+}*/
 
 h1 {
     font-size: 100px;
