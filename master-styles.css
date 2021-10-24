@@ -5,27 +5,46 @@ Author: Will Lewthwaite
 Date Last Modified: 24 October, 2021
 */
 
+/* 
+    ##### Contents #####
+    1. Colors
+    2. Global Styles
+    3. Profile
+    4. Projects
+    5. Work Experience
+    6. Education
+    7. Contact/Footer
+    8. Motion Styles
+    9. Grid Styles
+    10. Expanding Typing Animation in Frame 1
+    11. Button in Frame 2
+    12. Sailboat animation in Frame 3
+    13. Clouds Moving in Frame 4
+    14. Responsive Styles
+*/
+
 /*
 COLOR PALETTE
-https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+*** Original colors from Tutorials ***
 #F7FFF7 - almost white
 #343434 - dark gray - almost black
 #2F3061 - blue dark
 #FFE66D - yellow
 #A1C6D7 - blue light
-*/
-
-/*New Custom Color Palette Oct 3, 2021
-https://coolors.co/dad7cd-a3b18a-588157-3a5a40-344e41
+*** Custom Colors ***
 #DAD7CD - Timberwolf
 #A3B18A - Laurel Green
 #588157 - Fern
 #3A5A40 - Hunter
 #344E41 - Brunswick
+#9CB0B8 - Pewter Blue
+#667AA3 - Blue Yonder
+#3D4971 - RCAF Blue
+#000000 - Black
+#FFFFFF - White
 */
 
-/* Global styles
-------------------------------------*/
+/* ##### Global styles ##### */
 
 * {
     padding: 0;
@@ -102,8 +121,7 @@ h3 {
     border-bottom: none;
 }
 
-/* Profile
-------------------------------------*/
+/* ##### Profile ##### */
 
 header {
     background: #3A5A40;
@@ -155,8 +173,7 @@ Modified class id names, added 4th list item, modified colors- */
     background-color: #3e8e41;
 }
 
-/* Projects
-------------------------------------*/
+/* ##### Projects ##### */
 
 .projects {
     background: #DAD7CD;
@@ -187,15 +204,13 @@ Modified class id names, added 4th list item, modified colors- */
     margin-top: 0;
 }
 
-/* Work Experience
-------------------------------------*/
+/* ##### Work Experience ##### */
 
 .work-experience {
     background: #A3B18A;
 }
 
-/* Education
-------------------------------------*/
+/* #### Education #### */
 
 .education {
     background-image: url(img/sharon-mccutcheon-unsplash.jpg);
@@ -210,8 +225,7 @@ Modified class id names, added 4th list item, modified colors- */
     width: 60%;
 }
 
-/* Contact Info
-------------------------------------*/
+/* ##### Contact Info / Footer ##### */
 
 footer {
     background: #344E41;
@@ -228,59 +242,12 @@ footer {
     display: inline-block;
 }
 
-/* ANIMATION Styles */
-
-/* 
-    ##### Contents #####
-    1. Colors
-    2. Global Styles
-    3. Grid Styles
-    4. Expanding Typing Animation in Frame 1
-    5. Button in Frame 2
-    6. Sailboat animation in Frame 3
-    7. Clouds Moving in Frame 4
-    8. Responsive Styles
-*/
-
-/* Colors used - Not including text color in Frame1 h2
-#DAD7CD - Timberwolf
-#A3B18A - Laurel Green
-#588157 - Fern
-#9CB0B8 - Pewter Blue
-#667AA3 - Blue Yonder
-#3D4971 - RCAF Blue
-#000000 - Black
-#FFFFFF - White
-*/
-
-/* ########### Global Styles ############ */
-
-/*html, body {
-    background-color: black;
-    padding: 15px;
-}*/
-
-/*h1 {
-    font-size: 100px;
-    line-height: 1;
-}*/
+/* ##### MOTION Styles ##### */
 
 .klingon {
     font-size: 25px;
     color: #DAD7CD;
 }
-
-/*p {
-    font-size: 18px;
-    color: #DAD7CD;
-}*/
-
-/*h1 {
-    font-family: 'IM Fell English SC', serif;
-    font-weight: 400;
-    margin: 0;
-    color: #9CB0B8
-}*/
 
 img {
     width: 100px;
@@ -493,8 +460,8 @@ img.UFO {
     }
     .education {
         background-image: none;
+        /*Clears image at small screens for readability*/
     }
-    /*-- This addresses the issue of text readability at smaller screen sizes by clearing the background image --*/
     .Frames {
         display: flex;
         flex-direction: column;
