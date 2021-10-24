@@ -46,7 +46,7 @@ body {
     line-height: 1.5;
 }
 
-img {
+.project-img {
     width: 300px;
 }
 
@@ -198,7 +198,7 @@ Modified class id names, added 4th list item, modified colors- */
 ------------------------------------*/
 
 .education {
-    background-image: url(../placeholder\ images/sharon-mccutcheon-unsplash.jpg);
+    background-image: url(img/sharon-mccutcheon-unsplash.jpg);
     /* For this section I kept one of the stock images from the tutorial
     because I liked the books and they went well with the color theme */
     background-size: cover;
@@ -273,10 +273,10 @@ h1 {
     color: #DAD7CD;
 }
 
-p {
+/*p {
     font-size: 18px;
     color: #DAD7CD;
-}
+}*/
 
 /*h1 {
     font-family: 'IM Fell English SC', serif;
