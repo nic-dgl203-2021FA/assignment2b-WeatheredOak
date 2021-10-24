@@ -93,33 +93,40 @@ h1, h2 {
     margin: 0;
 }
 
+.logo {
+    size: 150px;
+    float: left;
+    margin: 0;
+    padding: 14px 16px;
+}
+
 ul.top-nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #344E41;
-  }
-  
-  ul.top-nav li {
+}
+
+ul.top-nav li {
     float: right;
-  }
-  
-  ul.top-nav li a {
+}
+
+ul.top-nav li a {
     display: block;
     color: #DAD7CD;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  ul.top-nav li a:hover:not(.active) {
+}
+
+ul.top-nav li a:hover:not(.active) {
     background-color: #A3B18A;
-  }
-  
-  .active {
+}
+
+.active {
     background-color: #04AA6D;
-  }
+}
 
 .content-wrap {
     max-width: 800px;
