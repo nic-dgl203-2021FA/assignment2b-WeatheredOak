@@ -609,6 +609,15 @@ img.UFO {
 	position: absolute;
 	right: 0;
 }
+.tugboat {
+	animation: boat 3s linear infinite;
+    background-repeat: no-repeat;
+    bottom: 175px;
+    height: 145px;
+    left: 50%;
+	position: absolute;
+    width: 250px;
+}
 
 /* #### Responsive Styles #### */
 
