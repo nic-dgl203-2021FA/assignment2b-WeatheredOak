@@ -538,6 +538,13 @@ img.UFO {
     https://codepen.io/prabiz/pen/dQLgbW?editors=1100 and tutorial materials.
     Adapted code to use SVGs instead of links. Altered heights of SVGs*/
 
+.porthole {
+    background: #9CB0B8;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1.5fr 1.5fr;
+}
+
 .boat-wrap {
     background: #ace5ee;
     width: 600px;
@@ -549,11 +556,6 @@ img.UFO {
 	overflow: hidden;
     justify-content: center;
 }
-
-/*.boat-wrap>div {
-    grid-column-start: 1;
-    grid-column-end: 4;
-}*/
 
 .aqua {
     bottom: 0;
@@ -750,6 +752,9 @@ img.UFO {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .porthole{
+        grid-template-columns: 1.5fr;
     }
     .boat-wrap {
         display: flex;
