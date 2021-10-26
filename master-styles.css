@@ -2,7 +2,7 @@
 NIC DGL-203
 Assignment 2c - Master Stylesheet
 Author: Will Lewthwaite
-Date Last Modified: 24 October, 2021
+Date Last Modified: 25 October, 2021
 */
 
 /* 
@@ -65,8 +65,14 @@ body {
     line-height: 1.5;
 }
 
-.project-img {
+.project-img { /* Added simple transition effect on hover or tap to replace defective modal image from 1C */
     width: 300px;
+    transition: width 2s, height 4s;
+}
+
+.project-img:hover {
+    width: 600px;
+    height: 800px;
 }
 
 a {
@@ -121,6 +127,7 @@ h1, h2 {
 }
 
 /* Navigation & Hamburger Menu */
+
 /* Code adapted from example found on CodePen https://codepen.io/mutedblues/pen/MmPNPG?editors=1100 
     Modified tags/classes, colors, and float to fit my page format. */
 
