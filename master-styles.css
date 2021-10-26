@@ -569,68 +569,16 @@ img.UFO {
     height: 100%;
     position: absolute;
     right: 0;
+    animation: water 10s linear infinite;
 }
-
-/* .aqua ul.waves {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+@keyframes wave {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 1920px 0;
+    }
 }
-
-.aqua ul.waves li {
-    background-repeat: repeat-x;
-}
-
-.aqua ul.waves li.wave1 {
-    animation: wave 8.7s linear infinite;
-    -webkit-animation-fill-mode: backwards;
-    -o-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    bottom: 0px;
-    height: 85px;
-    left: 0;
-    position: absolute;
-    right: 0;
-    z-index: 10;
-}
-
-.aqua ul.waves li.wave2 {
-    -webkit-animation-fill-mode: backwards;
-    -o-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    animation: wave 10s linear infinite;
-    bottom: 0px;
-    height: 100px;
-    left: 0;
-    position: absolute;
-    right: 0;
-    z-index: 9;
-}
-
-.aqua ul.waves li.wave3 {
-    -webkit-animation-fill-mode: backwards;
-    -o-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    animation: wave 25s linear infinite;
-    bottom: 0;
-    height: 95px;
-    left: 0;
-    position: absolute;
-    right: 0;
-    z-index: 8;
-}
-
-.aqua ul.waves li.wave4 {
-    -webkit-animation-fill-mode: backwards;
-    -o-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    animation: wave 25s linear infinite;
-    bottom: 0;
-    height: 90px;
-    left: 0;
-    position: absolute;
-    right: 0;
-} */
 
 .tugboat {
     animation: boat 3s linear infinite;
@@ -653,6 +601,9 @@ img.UFO {
     position: absolute;
     width: 297px;
 }
+.cloud3 img {
+    width: 50%;
+}
 
 .ufo2 {
     width: 100px;
@@ -670,14 +621,7 @@ img.UFO {
     }
 }
 
-@keyframes wave {
-    0% {
-        background-position: 0 0;
-    }
-    100% {
-        background-position: 1920px 0;
-    }
-}
+
 
 @keyframes boat {
     0% {
