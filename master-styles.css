@@ -93,39 +93,105 @@ h1, h2 {
     margin: 0;
 }
 
-.logo {
-    size: 150px;
-    float: left;
-    margin: 0;
-    padding: 14px 16px;
-}
-
-ul.top-nav {
-    list-style-type: none;
+.header ul {
     margin: 0;
     padding: 0;
+    list-style: none;
     overflow: hidden;
-    background-color: #344E41;
-}
-
-ul.top-nav li {
-    float: right;
-}
-
-ul.top-nav li a {
-    display: block;
-    color: #DAD7CD;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-ul.top-nav li a:hover:not(.active) {
     background-color: #A3B18A;
 }
 
-.active {
-    background-color: #04AA6D;
+.header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #DAD7CD;
+    text-decoration: none;
+}
+
+.header li a:hover, .header .nav-btn:hover {
+    background-color: #f4f4f4;
+}
+
+.header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Navigation & Hamburger Menu */
+/* Code adapted from example found on CodePen https://codepen.io/mutedblues/pen/MmPNPG?editors=1100 
+    Modified tags/classes, colors, and float to fit my page format. */
+
+.header .top-nav {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .nav-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+}
+
+.header .nav-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+}
+
+.header .nav-icon .navicon:before, .header .nav-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.header .nav-icon .navicon:before {
+    top: 5px;
+}
+
+.header .nav-icon .navicon:after {
+    top: -5px;
+}
+
+/* Hamburger Button */
+
+.header .nav-btn {
+    display: none;
+}
+
+.header .nav-btn:checked~.top-nav {
+    max-height: 240px;
+}
+
+.header .nav-btn:checked~.nav-icon .navicon {
+    background: transparent;
+}
+
+.header .nav-btn:checked~.nav-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+.header .nav-btn:checked~.nav-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+.header .nav-btn:checked~.nav-icon:not(.steps) .navicon:before, .header .nav-btn:checked~.nav-icon:not(.steps) .navicon:after {
+    top: 0;
 }
 
 .content-wrap {
@@ -475,6 +541,20 @@ img.UFO {
     }
     .education {
         display: flex;
+    }
+    .header li {
+        float: right;
+    }
+    .header li a {
+        padding: 20px 30px;
+    }
+    .header .top-nav {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+    .header .nav-icon {
+        display: none;
     }
 }
 
