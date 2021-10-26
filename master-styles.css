@@ -562,9 +562,9 @@ img.UFO {
 
 .aqua ul.waves li.wave1 {
     animation: wave 8.7s linear infinite;
-    -webkit-animation-fill-mode: forwards;
-    -o-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: backwards;
+    -o-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
     bottom: 0px;
     height: 50px;
     left: 0;
@@ -574,9 +574,9 @@ img.UFO {
 }
 
 .aqua ul.waves li.wave2 {
-    -webkit-animation-fill-mode: forwards;
-    -o-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: backwards;
+    -o-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
     animation: wave 10s linear infinite;
     bottom: 0px;
     height: 84px;
@@ -587,9 +587,9 @@ img.UFO {
 }
 
 .aqua ul.waves li.wave3 {
-    -webkit-animation-fill-mode: forwards;
-    -o-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: backwards;
+    -o-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
     animation: wave 25s linear infinite;
     bottom: 0;
     height: 190px;
@@ -599,9 +599,9 @@ img.UFO {
     z-index: 8;
 }
 .aqua ul.waves li.wave4 {
-	-webkit-animation-fill-mode: forwards;
-	-o-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
 	animation: wave 25s linear infinite;
 	bottom: 0;
 	height: 205px;
@@ -618,6 +618,7 @@ img.UFO {
 	position: absolute;
     width: 250px;
 }
+
 
 /* #### Responsive Styles #### */
 
