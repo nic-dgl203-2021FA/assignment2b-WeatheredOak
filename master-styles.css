@@ -635,6 +635,9 @@ img.UFO {
     position: absolute;
     width: 400px;
 }
+.tugboat img {
+    width: 40%;
+}
 
 .cloud3 {
     animation: cloud 30s linear infinite;
@@ -760,6 +763,8 @@ img.UFO {
     }
     .boat-wrap {
         display: flex;
+        width: 250px;
+        height: 250px;
         flex-direction: column;
         justify-content: center;
     }
