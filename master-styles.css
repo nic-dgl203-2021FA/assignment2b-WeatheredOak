@@ -551,10 +551,10 @@ img.UFO {
     padding: 10px;
 }
 
-.boat-wrap>div {
+/*.boat-wrap>div {
     grid-column-start: 1;
     grid-column-end: 4;
-}
+}*/
 
 .aqua {
     bottom: 0;
