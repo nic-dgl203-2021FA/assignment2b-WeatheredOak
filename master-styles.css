@@ -559,14 +559,19 @@ img.UFO {
     justify-content: center;
 }
 
-.aqua {
-    bottom: 0;
-    left: 0;
+.aqua {    
+    height: 200px;
     position: absolute;
-    width: auto;
+    bottom: 0;
+    width: 100%;    
+}
+.waves {
+    height: 100%;
+    position: absolute;
+    right: 0;
 }
 
-.aqua ul.waves {
+/* .aqua ul.waves {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -604,7 +609,7 @@ img.UFO {
 
 .aqua ul.waves li.wave3 {
     -webkit-animation-fill-mode: backwards;
-    /*-o-animation-fill-mode: backwards;*/
+    -o-animation-fill-mode: backwards;
     animation-fill-mode: backwards;
     animation: wave 25s linear infinite;
     bottom: 0;
@@ -625,7 +630,7 @@ img.UFO {
     left: 0;
     position: absolute;
     right: 0;
-}
+} */
 
 .tugboat {
     animation: boat 3s linear infinite;
