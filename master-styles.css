@@ -532,13 +532,14 @@ img.UFO {
 .boat-wrap {
     background: #ace5ee;
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: 80%;
     grid-template-rows: 1fr auto;
     grid-gap: 10px;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 70vh;
+    padding: 10px;
 }
 .boat-wrap>div {
     grid-column-start: 1;
@@ -548,7 +549,7 @@ img.UFO {
     bottom: 0;
     left: 0;
     position: absolute;
-    width: 100%;
+    width: auto;
 }
 .aqua ul.waves {
     list-style: none;
@@ -560,6 +561,8 @@ img.UFO {
 }
 .aqua ul.waves li.wave1 {
     animation: wave 8.7s linear infinite;
+    -webkit-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
     animation-fill-mode: backwards;
     bottom: 0px;
     height: 85px;
@@ -569,7 +572,8 @@ img.UFO {
     z-index: 10;
 }
 .aqua ul.waves li.wave2 {
-    
+    -webkit-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
     animation-fill-mode: backwards;
     animation: wave 10s linear infinite;
     bottom: 0px;
@@ -580,7 +584,8 @@ img.UFO {
     z-index: 9;
 }
 .aqua ul.waves li.wave3 {
-   
+    -webkit-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
     animation-fill-mode: backwards;
     animation: wave 25s linear infinite;
     bottom: 0;
@@ -591,7 +596,8 @@ img.UFO {
     z-index: 8;
 }
 .aqua ul.waves li.wave4 {
-    
+    -webkit-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
     animation-fill-mode: backwards;
     animation: wave 25s linear infinite;
     bottom: 0;
@@ -604,10 +610,10 @@ img.UFO {
     animation: boat 3s linear infinite;
     background-repeat: no-repeat;
     bottom: 100px;
-    height: 55px;
+    height: 75px;
     left: 50%;
     position: absolute;
-    width: 250px;
+    width: 400px;
 }
 .cloud3 {
     animation: cloud 30s linear infinite;
@@ -615,10 +621,10 @@ img.UFO {
     height: 300px;
     left: 0;
     position: absolute;
-    width: 297px
+    width: 297px;
 }
 .ufo2 {
-    animation: ufo 25s linear infinite;
+    animation: float 25s linear infinite;
     background-repeat: no-repeat;
     bottom: 125px;
     height: 165px;
