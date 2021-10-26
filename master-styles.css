@@ -482,9 +482,11 @@ button:hover {
 .cloud1 {
     animation: float 20s linear infinite;
 }
+
 .cloud2 {
     animation: float 25s 5s linear infinite backwards;
 }
+
 .UFO {
     animation: float 15s linear infinite;
 }
@@ -501,24 +503,31 @@ button:hover {
 .sky-scraper, .cloud {
     position: absolute;
 }
+
 .sky-scraper {
     z-index: 50;
 }
+
 .cloud2 {
     top: 76px;
 }
+
 .cloud1 {
     top: 30px;
 }
+
 .UFO {
     top: 50px;
 }
+
 img.cloud {
     width: 150px;
 }
+
 img.UFO {
     width: 100px;
 }
+
 .sky-scraper img {
     width: 100%;
 }
@@ -541,28 +550,33 @@ img.UFO {
     height: 70vh;
     padding: 10px;
 }
+
 .boat-wrap>div {
     grid-column-start: 1;
     grid-column-end: 4;
 }
+
 .aqua {
     bottom: 0;
     left: 0;
     position: absolute;
     width: auto;
 }
+
 .aqua ul.waves {
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
 .aqua ul.waves li {
     background-repeat: repeat-x;
 }
+
 .aqua ul.waves li.wave1 {
     animation: wave 8.7s linear infinite;
     -webkit-animation-fill-mode: forwards;
-	-o-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
     animation-fill-mode: backwards;
     bottom: 0px;
     height: 85px;
@@ -571,9 +585,10 @@ img.UFO {
     right: 0;
     z-index: 10;
 }
+
 .aqua ul.waves li.wave2 {
     -webkit-animation-fill-mode: backwards;
-	-o-animation-fill-mode: backwards;
+    -o-animation-fill-mode: backwards;
     animation-fill-mode: backwards;
     animation: wave 10s linear infinite;
     bottom: 0px;
@@ -583,9 +598,10 @@ img.UFO {
     right: 0;
     z-index: 9;
 }
+
 .aqua ul.waves li.wave3 {
     -webkit-animation-fill-mode: backwards;
-	-o-animation-fill-mode: backwards;
+    -o-animation-fill-mode: backwards;
     animation-fill-mode: backwards;
     animation: wave 25s linear infinite;
     bottom: 0;
@@ -595,9 +611,10 @@ img.UFO {
     right: 0;
     z-index: 8;
 }
+
 .aqua ul.waves li.wave4 {
     -webkit-animation-fill-mode: backwards;
-	-o-animation-fill-mode: backwards;
+    -o-animation-fill-mode: backwards;
     animation-fill-mode: backwards;
     animation: wave 25s linear infinite;
     bottom: 0;
@@ -606,6 +623,7 @@ img.UFO {
     position: absolute;
     right: 0;
 }
+
 .tugboat {
     animation: boat 3s linear infinite;
     background-repeat: no-repeat;
@@ -615,6 +633,7 @@ img.UFO {
     position: absolute;
     width: 400px;
 }
+
 .cloud3 {
     animation: cloud 30s linear infinite;
     background-repeat: no-repeat;
@@ -623,48 +642,53 @@ img.UFO {
     position: absolute;
     width: 297px;
 }
+
 .ufo2 {
-    animation: float 25s linear infinite;
-    background-repeat: no-repeat;
-    bottom: 125px;
-    height: 165px;
-    left: 140px;
-    position: absolute;
-    width: 150px;
+    width: 100px;
+    offset-path: path('M.542,219.99c540.71,0,477.005-218.911,277.995-218.37S7.081,219.99,539.573,219.99');
+    offset-rotate: auto;
+    animation: fly 9s cubic-bezier(.22, 0, .76, 1) both;
 }
-@keyframes wave{
+
+@keyframes fly {
+    0% {
+        offset-distance: 0%;
+    }
+    100% {
+        offset-distance: 100%;
+    }
+}
+
+@keyframes wave {
     0% {
         background-position: 0 0;
-	}
-
+    }
     100% {
         background-position: 1920px 0;
     }
 }
 
-@keyframes boat{
-	0%{
-		transform: rotate(0);
-	}
-
-	50%{
-		transform: rotate(-3deg);
-	}
-
-	100%{
-		transform: rotate(0);
-	}
+@keyframes boat {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(-3deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
 }
 
-@keyframes cloud{
-	0%{
-		left: -30%;
-	}
-
-	100%{
-		left: 100%;
-	}
+@keyframes cloud {
+    0% {
+        left: -30%;
+    }
+    100% {
+        left: 100%;
+    }
 }
+
 /* #### Responsive Styles #### */
 
 @media screen and (min-width:750px) {
