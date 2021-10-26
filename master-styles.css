@@ -569,7 +569,7 @@ img.UFO {
     height: 100%;
     position: absolute;
     right: 0;
-    animation: water 10s linear infinite;
+    animation: wave 10s linear infinite;
 }
 @keyframes wave {
     0% {
