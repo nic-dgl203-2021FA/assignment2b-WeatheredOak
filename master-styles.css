@@ -548,9 +548,10 @@ img.UFO {
 
 .boat-wrap {
     background: #ace5ee;
-    width: 400px;
-    height: 400px;
+    width: 650px;
+    height: 650px;
     border-radius: 20%;
+    margin: 10px;
     display: flex;
     align-items: center;
     position: relative;
@@ -603,7 +604,7 @@ img.UFO {
 
 .aqua ul.waves li.wave3 {
     -webkit-animation-fill-mode: backwards;
-    -o-animation-fill-mode: backwards;
+    /*-o-animation-fill-mode: backwards;*/
     animation-fill-mode: backwards;
     animation: wave 25s linear infinite;
     bottom: 0;
@@ -629,14 +630,14 @@ img.UFO {
 .tugboat {
     animation: boat 3s linear infinite;
     background-repeat: no-repeat;
-    bottom: 100px;
+    bottom: 200px;
     height: 75px;
-    left: 50%;
+    left: 30%;
     position: absolute;
     width: 400px;
 }
 .tugboat img {
-    width: 40%;
+    width: 65%;
 }
 
 .cloud3 {
