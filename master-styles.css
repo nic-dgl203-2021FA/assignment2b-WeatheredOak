@@ -559,28 +559,31 @@ img.UFO {
     justify-content: center;
 }
 
-.aqua {    
+.aqua {
     height: 200px;
     position: absolute;
     bottom: 0;
     width: 100%;
-    left: 0;   
+    left: 0;
 }
+
 .aqua img {
-    width:80%;
+    width: 100%;
 }
+
 .waves {
     height: 100%;
     position: absolute;
     right: 0;
     animation: waves 10s linear infinite;
 }
+
 @keyframes wave {
     0% {
-        background-position: 0 0;
+        transform: translate(0);
     }
     100% {
-        background-position: 1920px 0;
+        transform: translate(800px);
     }
 }
 
@@ -593,6 +596,7 @@ img.UFO {
     position: absolute;
     width: 400px;
 }
+
 .tugboat img {
     width: 65%;
 }
@@ -605,6 +609,7 @@ img.UFO {
     position: absolute;
     width: 297px;
 }
+
 .cloud3 img {
     width: 50%;
 }
@@ -624,8 +629,6 @@ img.UFO {
         offset-distance: 100%;
     }
 }
-
-
 
 @keyframes boat {
     0% {
