@@ -65,14 +65,19 @@ body {
     line-height: 1.5;
 }
 
-.project-img { /* Added simple transition effect on hover or tap to replace defective modal image from 1C */
+.project-img {
+    /* Added simple transition effect on hover or tap to replace defective modal image from 1C */
     width: 300px;
     transition: width 2s, height 4s;
 }
 
 .project-img:hover {
-    width: 600px;
-    height: 800px;
+    width: 500px;
+    height: 700px;
+}
+
+.project-img2 {
+    width: 300px;
 }
 
 a {
@@ -576,6 +581,10 @@ img.UFO {
     }
     h2 {
         line-height: 1;
+    }
+
+    .project-img {
+        max-width: fit-content;
     }
     .contact-list a {
         padding: 5px;
