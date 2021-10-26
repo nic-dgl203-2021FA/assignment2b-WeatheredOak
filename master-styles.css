@@ -482,11 +482,9 @@ button:hover {
 .cloud1 {
     animation: float 20s linear infinite;
 }
-
 .cloud2 {
     animation: float 25s 5s linear infinite backwards;
 }
-
 .UFO {
     animation: float 15s linear infinite;
 }
@@ -503,36 +501,33 @@ button:hover {
 .sky-scraper, .cloud {
     position: absolute;
 }
-
 .sky-scraper {
     z-index: 50;
 }
-
 .cloud2 {
     top: 76px;
 }
-
 .cloud1 {
     top: 30px;
 }
-
 .UFO {
     top: 50px;
 }
-
 img.cloud {
     width: 150px;
 }
-
 img.UFO {
     width: 100px;
 }
-
 .sky-scraper img {
     width: 100%;
 }
 
 /* ### ANIMATION Styles ##### */
+
+/* ^^^^ All SVGs drawn by me in Illustrator. Animation codes adapted from
+    https://codepen.io/prabiz/pen/dQLgbW?editors=1100 and tutorial materials.
+    Adapted code to use SVGs instead of links. Altered heights of SVGs*/
 
 .boat-wrap {
     background: #ace5ee;
@@ -545,29 +540,24 @@ img.UFO {
     width: 100%;
     height: 70vh;
 }
-
 .boat-wrap>div {
     grid-column-start: 1;
     grid-column-end: 4;
 }
-
 .aqua {
     bottom: 0;
     left: 0;
     position: absolute;
     width: 100%;
 }
-
 .aqua ul.waves {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-
 .aqua ul.waves li {
     background-repeat: repeat-x;
 }
-
 .aqua ul.waves li.wave1 {
     animation: wave 8.7s linear infinite;
     -webkit-animation-fill-mode: backwards;
@@ -580,7 +570,6 @@ img.UFO {
     right: 0;
     z-index: 10;
 }
-
 .aqua ul.waves li.wave2 {
     -webkit-animation-fill-mode: backwards;
     -o-animation-fill-mode: backwards;
@@ -593,7 +582,6 @@ img.UFO {
     right: 0;
     z-index: 9;
 }
-
 .aqua ul.waves li.wave3 {
     -webkit-animation-fill-mode: backwards;
     -o-animation-fill-mode: backwards;
@@ -606,7 +594,6 @@ img.UFO {
     right: 0;
     z-index: 8;
 }
-
 .aqua ul.waves li.wave4 {
     -webkit-animation-fill-mode: backwards;
     -o-animation-fill-mode: backwards;
@@ -618,7 +605,6 @@ img.UFO {
     position: absolute;
     right: 0;
 }
-
 .tugboat {
     animation: boat 3s linear infinite;
     background-repeat: no-repeat;
@@ -628,7 +614,6 @@ img.UFO {
     position: absolute;
     width: 250px;
 }
-
 .cloud3 {
     animation: cloud 30s linear infinite;
     background-repeat: no-repeat;
@@ -637,7 +622,6 @@ img.UFO {
     position: absolute;
     width: 297px
 }
-
 .ufo2 {
     animation: ufo 25s linear infinite;
     background-repeat: no-repeat;
