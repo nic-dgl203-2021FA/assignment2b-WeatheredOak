@@ -537,7 +537,7 @@ img.UFO {
 .boat-wrap {
     background: #ace5ee;
     display: grid;
-    grid-template-columns: 3fr ;
+    grid-template-columns: 2fr;
     grid-template-rows: 1fr auto;
     grid-gap: 10px;
     align-items: center;
@@ -545,7 +545,8 @@ img.UFO {
     width: 100%;
     height: 70vh;
 }
-.boat-wrap>div{
+
+.boat-wrap>div {
     grid-column-start: 1;
     grid-column-end: 4;
 }
@@ -573,7 +574,7 @@ img.UFO {
     -o-animation-fill-mode: backwards;
     animation-fill-mode: backwards;
     bottom: 0px;
-    height: 30px;
+    height: 95px;
     left: 0;
     position: absolute;
     right: 0;
@@ -586,7 +587,7 @@ img.UFO {
     animation-fill-mode: backwards;
     animation: wave 10s linear infinite;
     bottom: 0px;
-    height: 44px;
+    height: 100px;
     left: 0;
     position: absolute;
     right: 0;
@@ -599,44 +600,48 @@ img.UFO {
     animation-fill-mode: backwards;
     animation: wave 25s linear infinite;
     bottom: 0;
-    height: 90px;
+    height: 95px;
     left: 0;
     position: absolute;
     right: 0;
     z-index: 8;
 }
+
 .aqua ul.waves li.wave4 {
-	-webkit-animation-fill-mode: backwards;
-	-o-animation-fill-mode: backwards;
-	animation-fill-mode: backwards;
-	animation: wave 25s linear infinite;
-	bottom: 0;
-	height: 75px;
-	left: 0;
-	position: absolute;
-	right: 0;
+    -webkit-animation-fill-mode: backwards;
+    -o-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    animation: wave 25s linear infinite;
+    bottom: 0;
+    height: 90px;
+    left: 0;
+    position: absolute;
+    right: 0;
 }
+
 .tugboat {
-	animation: boat 3s linear infinite;
+    animation: boat 3s linear infinite;
     background-repeat: no-repeat;
     bottom: 100px;
     height: 55px;
     left: 50%;
-	position: absolute;
+    position: absolute;
     width: 250px;
 }
+
 .cloud3 {
-	animation: cloud 30s linear infinite;
-	background-repeat: no-repeat;
+    animation: cloud 30s linear infinite;
+    background-repeat: no-repeat;
     height: 300px;
     left: 0;
     position: absolute;
     width: 297px
 }
-.ufo2{
-	animation: ufo 25s linear infinite;
-	background-repeat: no-repeat;
-    bottom: 320px;
+
+.ufo2 {
+    animation: ufo 25s linear infinite;
+    background-repeat: no-repeat;
+    bottom: 125px;
     height: 165px;
     left: 140px;
     position: absolute;
@@ -682,11 +687,8 @@ img.UFO {
 }
 
 @media screen and (max-width: 749px) {
-    header, footer {
-        display: flex;
-        text-align: center;
-    }
     h1 {
+        text-align: center;
         font-size: 75px;
         line-height: 0.9;
         margin-bottom: 20px;
