@@ -536,11 +536,14 @@ img.UFO {
 
 .boat-wrap {
     background: #ace5ee;
-    display: flex;
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 2fr auto;
+    grid-gap: 10px;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
 
 .aqua {
@@ -698,6 +701,11 @@ img.UFO {
         /*Clears image at small screens for readability*/
     }
     .Frames {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .boat-wrap {
         display: flex;
         flex-direction: column;
         justify-content: center;
