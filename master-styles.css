@@ -575,8 +575,8 @@ img.UFO {
 
 .aqua ul.waves li.wave1 {
     animation: wave 8.7s linear infinite;
-    -webkit-animation-fill-mode: forwards;
-    -o-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: backwards;
+    -o-animation-fill-mode: backwards;
     animation-fill-mode: backwards;
     bottom: 0px;
     height: 85px;
