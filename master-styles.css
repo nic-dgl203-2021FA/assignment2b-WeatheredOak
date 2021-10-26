@@ -553,6 +553,9 @@ img.UFO {
 	margin: 0;
 	padding: 0;
 }
+.aqua ul.waves li{
+	background-repeat: repeat-x;
+}
 
 /* #### Responsive Styles #### */
 
