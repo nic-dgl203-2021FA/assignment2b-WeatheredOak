@@ -563,13 +563,17 @@ img.UFO {
     height: 200px;
     position: absolute;
     bottom: 0;
-    width: 100%;    
+    width: 100%;
+    left: 0;   
+}
+.aqua img {
+    width:80%;
 }
 .waves {
     height: 100%;
     position: absolute;
     right: 0;
-    animation: wave 10s linear infinite;
+    animation: waves 10s linear infinite;
 }
 @keyframes wave {
     0% {
