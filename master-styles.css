@@ -560,19 +560,16 @@ img.UFO {
 }
 .aqua ul.waves li.wave1 {
     animation: wave 8.7s linear infinite;
-    -webkit-animation-fill-mode: backwards;
-    -o-animation-fill-mode: backwards;
     animation-fill-mode: backwards;
     bottom: 0px;
-    height: 95px;
+    height: 85px;
     left: 0;
     position: absolute;
     right: 0;
     z-index: 10;
 }
 .aqua ul.waves li.wave2 {
-    -webkit-animation-fill-mode: backwards;
-    -o-animation-fill-mode: backwards;
+    
     animation-fill-mode: backwards;
     animation: wave 10s linear infinite;
     bottom: 0px;
@@ -583,8 +580,7 @@ img.UFO {
     z-index: 9;
 }
 .aqua ul.waves li.wave3 {
-    -webkit-animation-fill-mode: backwards;
-    -o-animation-fill-mode: backwards;
+   
     animation-fill-mode: backwards;
     animation: wave 25s linear infinite;
     bottom: 0;
@@ -595,8 +591,7 @@ img.UFO {
     z-index: 8;
 }
 .aqua ul.waves li.wave4 {
-    -webkit-animation-fill-mode: backwards;
-    -o-animation-fill-mode: backwards;
+    
     animation-fill-mode: backwards;
     animation: wave 25s linear infinite;
     bottom: 0;
@@ -631,7 +626,39 @@ img.UFO {
     position: absolute;
     width: 150px;
 }
+@keyframes wave{
+    0% {
+        background-position: 0 0;
+	}
 
+    100% {
+        background-position: 1920px 0;
+    }
+}
+
+@keyframes boat{
+	0%{
+		transform: rotate(0);
+	}
+
+	50%{
+		transform: rotate(-3deg);
+	}
+
+	100%{
+		transform: rotate(0);
+	}
+}
+
+@keyframes cloud{
+	0%{
+		left: -30%;
+	}
+
+	100%{
+		left: 100%;
+	}
+}
 /* #### Responsive Styles #### */
 
 @media screen and (min-width:750px) {
