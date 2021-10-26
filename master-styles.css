@@ -535,50 +535,79 @@ img.UFO {
 /* ### ANIMATION Styles ##### */
 
 .boat-wrap {
-	background: #ace5ee;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	height: 100vh;
+    background: #ace5ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
 }
+
 .aqua {
     bottom: 0;
     left: 0;
-	position: absolute;
+    position: absolute;
     width: 100%;
 }
-.aqua ul.waves{
-	list-style: none;
-	margin: 0;
-	padding: 0;
+
+.aqua ul.waves {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-.aqua ul.waves li{
-	background-repeat: repeat-x;
+
+.aqua ul.waves li {
+    background-repeat: repeat-x;
 }
+
 .aqua ul.waves li.wave1 {
-	animation: wave 8.7s linear infinite;
-	-webkit-animation-fill-mode: forwards;
-	-o-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-	bottom: 0px;
-	height: 50px;
-	left: 0;
-	position: absolute;
-	right: 0;
-	z-index: 10;
+    animation: wave 8.7s linear infinite;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    bottom: 0px;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 10;
 }
+
 .aqua ul.waves li.wave2 {
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation: wave 10s linear infinite;
+    bottom: 0px;
+    height: 84px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 9;
+}
+
+.aqua ul.waves li.wave3 {
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation: wave 25s linear infinite;
+    bottom: 0;
+    height: 190px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 8;
+}
+.aqua ul.waves li.wave4 {
 	-webkit-animation-fill-mode: forwards;
 	-o-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
-	animation: wave 10s linear infinite;
-	bottom: 0px;
-	height: 84px;
+	animation: wave 25s linear infinite;
+	bottom: 0;
+	height: 205px;
 	left: 0;
 	position: absolute;
 	right: 0;
-	z-index: 9;
 }
 
 /* #### Responsive Styles #### */
@@ -631,7 +660,6 @@ img.UFO {
     h2 {
         line-height: 1;
     }
-
     .project-img {
         max-width: fit-content;
     }
