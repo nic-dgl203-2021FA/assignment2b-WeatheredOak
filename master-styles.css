@@ -566,7 +566,7 @@ img.UFO {
     -o-animation-fill-mode: backwards;
     animation-fill-mode: backwards;
     bottom: 0px;
-    height: 50px;
+    height: 30px;
     left: 0;
     position: absolute;
     right: 0;
@@ -579,7 +579,7 @@ img.UFO {
     animation-fill-mode: backwards;
     animation: wave 10s linear infinite;
     bottom: 0px;
-    height: 84px;
+    height: 44px;
     left: 0;
     position: absolute;
     right: 0;
@@ -592,7 +592,7 @@ img.UFO {
     animation-fill-mode: backwards;
     animation: wave 25s linear infinite;
     bottom: 0;
-    height: 190px;
+    height: 90px;
     left: 0;
     position: absolute;
     right: 0;
@@ -604,7 +604,7 @@ img.UFO {
 	animation-fill-mode: backwards;
 	animation: wave 25s linear infinite;
 	bottom: 0;
-	height: 205px;
+	height: 75px;
 	left: 0;
 	position: absolute;
 	right: 0;
@@ -612,13 +612,29 @@ img.UFO {
 .tugboat {
 	animation: boat 3s linear infinite;
     background-repeat: no-repeat;
-    bottom: 175px;
-    height: 145px;
+    bottom: 100px;
+    height: 55px;
     left: 50%;
 	position: absolute;
     width: 250px;
 }
-
+.cloud3 {
+	animation: cloud 30s linear infinite;
+	background-repeat: no-repeat;
+    height: 300px;
+    left: 0;
+    position: absolute;
+    width: 297px
+}
+.ufo2{
+	animation: ufo 25s linear infinite;
+	background-repeat: no-repeat;
+    bottom: 320px;
+    height: 165px;
+    left: 140px;
+    position: absolute;
+    width: 150px;
+}
 
 /* #### Responsive Styles #### */
 
@@ -660,6 +676,7 @@ img.UFO {
 
 @media screen and (max-width: 749px) {
     header, footer {
+        display: flex;
         text-align: center;
     }
     h1 {
