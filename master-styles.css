@@ -548,7 +548,8 @@ img.UFO {
 }
 
 .boat-wrap {
-    /* This contains a tugboat cruising through choppy water and an unexpected visitor flies overhead */
+    /* This contains a tugboat cruising through choppy water as a cloud drifts overhead.
+        The boat bobs slightly in the sea.*/
     background: #ace5ee;
     width: 475px;
     height: 475px;
@@ -635,23 +636,6 @@ img.UFO {
     }
     100% {
         left: 100%;
-    }
-}
-
-.ufo2 {
-    /* Code adapted from tutorial lesson. Replaced robot with UFO, drew path in XD. Sci-fi theremin sounds not included*/
-    width: 100px;
-    offset-path: path("M-183.4,19.064l23.665,18.406,35.5-18.406L-96.632,37.47l30.239-18.406L-30.9,37.47,11.175,19.064l35.5,27.609,65.736-21.036");
-    offset-rotate: auto;
-    animation: fly 9s cubic-bezier(.22, 0, .76, 1) both;
-}
-
-@keyframes fly {
-    0% {
-        offset-distance: 0%;
-    }
-    100% {
-        offset-distance: 100%;
     }
 }
 
