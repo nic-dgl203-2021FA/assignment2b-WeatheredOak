@@ -544,15 +544,15 @@ img.UFO {
     background: #9CB0B8;
     display: grid;
     gap: 10px;
-    grid-template-columns: 1.5fr 1.5fr;
+    grid-template-columns: 2fr 2fr;
 }
 
 .boat-wrap {
     /* This contains a tugboat cruising through choppy water as a cloud drifts overhead.
         The boat bobs slightly in the sea.*/
     background: #ace5ee;
-    width: 475px;
-    height: 475px;
+    width: 2fr;
+    height: 2fr;
     border-radius: 20%;
     margin: 10px;
     display: flex;
@@ -641,8 +641,8 @@ img.UFO {
 
 .word-wrap {
     background: #ace5ee;
-    width: 475px;
-    height: 475px;
+    width: 2fr;
+    height: 2fr;
     border-radius: 20%;
     margin: 10px;
     display: flex;
@@ -685,9 +685,9 @@ img.UFO {
 
   .ufo2 {
     width:100px;
-    offset-path: path("M823.052,213.921l36.258-90.644,50.761,90.644,58.013-68.89,43.509,68.89,83.393-68.89,36.258,68.89");
+    offset-path: path('M.542,219.99c540.71,0,477.005-218.911,277.995-218.37S7.081,219.99,539.573,219.99');
     offset-rotate: auto;
-    animation: fly 5s cubic-bezier(.22, 0,.76, 1) both;
+    animation: fly 7s cubic-bezier(0,1.44,.88,1.49) both;
   }
   
   @keyframes fly {
