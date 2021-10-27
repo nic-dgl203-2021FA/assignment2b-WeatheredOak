@@ -634,7 +634,7 @@ img.UFO {
 
 .ufo2 {
     width: 100px;
-    offset-path: path(auto);
+    offset-path: path("M-183.4,19.064l23.665,18.406,35.5-18.406L-96.632,37.47l30.239-18.406L-30.9,37.47,11.175,19.064l35.5,27.609,65.736-21.036");
     offset-rotate: auto;
     animation: fly 9s cubic-bezier(.22, 0, .76, 1) both;
 }
