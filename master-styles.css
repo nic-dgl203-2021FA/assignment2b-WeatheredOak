@@ -568,7 +568,7 @@ img.UFO {
 }
 
 .aqua img {
-    width: 100%;
+    width: 150%;
 }
 
 .waves {
@@ -578,12 +578,12 @@ img.UFO {
     animation: waves 10s linear infinite;
 }
 
-@keyframes wave {
+@keyframes waves {
     0% {
-        transform: translate(0);
+        transform: translate(100px);
     }
     100% {
-        transform: translate(800px);
+        transform: translate(10px);
     }
 }
 
@@ -600,6 +600,17 @@ img.UFO {
 .tugboat img {
     width: 65%;
 }
+@keyframes boat {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(-3deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
 
 .cloud3 {
     animation: cloud 30s linear infinite;
@@ -609,9 +620,16 @@ img.UFO {
     position: absolute;
     width: 297px;
 }
-
 .cloud3 img {
     width: 50%;
+}
+@keyframes cloud {
+    0% {
+        left: -30%;
+    }
+    100% {
+        left: 100%;
+    }
 }
 
 .ufo2 {
@@ -630,26 +648,7 @@ img.UFO {
     }
 }
 
-@keyframes boat {
-    0% {
-        transform: rotate(0);
-    }
-    50% {
-        transform: rotate(-3deg);
-    }
-    100% {
-        transform: rotate(0);
-    }
-}
 
-@keyframes cloud {
-    0% {
-        left: -30%;
-    }
-    100% {
-        left: 100%;
-    }
-}
 
 /* #### Responsive Styles #### */
 
@@ -724,6 +723,13 @@ img.UFO {
         height: 250px;
         flex-direction: column;
         justify-content: center;
+    }
+    .tugboat img {
+        width: 40%;
+        height: 200px;
+    }
+    .cloud3 img {
+        width: 30%;
     }
 }
 
