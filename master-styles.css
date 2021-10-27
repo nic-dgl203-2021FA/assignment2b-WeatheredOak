@@ -683,6 +683,27 @@ img.UFO {
     color: #e21515;
   }
 
+  .ufo2 {
+    width:100px;
+    offset-path: path("M823.052,213.921l36.258-90.644,50.761,90.644,58.013-68.89,43.509,68.89,83.393-68.89,36.258,68.89");
+    offset-rotate: auto;
+    animation: fly 5s cubic-bezier(.22, 0,.76, 1) both;
+  }
+  
+  @keyframes fly {
+    0% {
+      offset-distance: 0%;
+    }
+    100% {
+      offset-distance: 100%;
+    }
+  }
+  
+  /* other styles */
+  .wrap {
+    width:800px;
+  }
+
 /* #### Responsive Styles #### */
 
 @media screen and (min-width:750px) {
