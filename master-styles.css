@@ -651,58 +651,63 @@ img.UFO {
     overflow: hidden;
     justify-content: center;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
 .words {
     font-family: 'Freckle Face', cursive;
-    font-size:2rem;
+    font-size: 2rem;
     animation: moveIn 5s linear both infinite;
-    margin:0.75rem 0;
-  }
-  
-  @keyframes moveIn {
+    margin: 0.75rem 0;
+}
+
+@keyframes moveIn {
     0% {
-      transform: translateX(-325%) scale(1) rotate(0deg);
+        transform: translateX(-325%) scale(1) rotate(0deg);
     }
     100% {
-      transform: translateX(500px) scale(1.5)rotate(10deg);
+        transform: translateX(500px) scale(1.5)rotate(10deg);
     }
-  }
-  .word1:nth-of-type(1) { 
-    color: #343434;
-  }
-  
-  .word2:nth-of-type(2) {
-    color: #343434;
-  }
-  
-  .word3:nth-of-type(3) {
-    color: #343434;
-  }
-  
-  .word4:nth-of-type(4) {
-    color: #e21515;
-  }
+}
 
-  .ufo2 {
-    width:100px;
+.word1:nth-of-type(1) {
+    color: #343434;
+}
+
+.word2:nth-of-type(2) {
+    color: #343434;
+}
+
+.word3:nth-of-type(3) {
+    color: #343434;
+}
+
+.word4:nth-of-type(4) {
+    color: #e21515;
+}
+
+.ufo2 {
+    width: 100px;
     /*offset-path: path("M29.006,29.006l221.173,25.38,181.289-25.38,213.921,25.38,134.154-25.38,68.89,25.38,108.773-25.38,68.89,25.38,97.9-25.38,83.393,25.38,134.154-25.38,79.767,25.38,87.019-25.38,58.013,25.38,76.141-25.38");
     offset-rotate: auto;*/
-    animation: fly 15s cubic-bezier(0,1.44,.88,1.49) both infinite;
-  }
-  
-  @keyframes fly {
+    animation: fly 15s cubic-bezier(0, 1.44, .88, 1.49) both infinite;
+}
+
+/* Could not get this to work */
+
+@keyframes fly {
     0% {
-      offset-distance: 0%;
+        offset-distance: 0%;
     }
     100% {
-      offset-distance: 100%;
+        offset-distance: 100%;
     }
-  }
-  
-  /* other styles */
-  .wrap {
-    width:800px;
-  }
+}
+
+/* other styles */
+
+.wrap {
+    width: 800px;
+}
 
 /* #### Responsive Styles #### */
 
