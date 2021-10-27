@@ -655,7 +655,7 @@ img.UFO {
 .words {
     font-family: 'Freckle Face', cursive;
     font-size:2.5rem;
-    animation: moveIn 4s linear both;
+    animation: moveIn 5s linear both infinite;
     margin:0.75rem 0;
   }
   
@@ -685,9 +685,9 @@ img.UFO {
 
   .ufo2 {
     width:100px;
-    offset-path: path("M159.534,808.549S137.78,145.031,678.021,101.522s0,333.572,0,333.572");
+    offset-path: path("M29.006,29.006l221.173,25.38,181.289-25.38,213.921,25.38,134.154-25.38,68.89,25.38,108.773-25.38,68.89,25.38,97.9-25.38,83.393,25.38,134.154-25.38,79.767,25.38,87.019-25.38,58.013,25.38,76.141-25.38");
     /*offset-rotate: auto;*/
-    animation: fly 7s cubic-bezier(0,1.44,.88,1.49) both;
+    animation: fly 15s cubic-bezier(0,1.44,.88,1.49) both infinite;
   }
   
   @keyframes fly {
